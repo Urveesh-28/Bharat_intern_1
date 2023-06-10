@@ -1,4 +1,4 @@
-	*{
+	      *{
 				padding:0;
 				margin:0;
 				box-sizing:border-box;
@@ -20,7 +20,7 @@
 				background-attachment:scroll;
 				background-repeat:no-repeat;
 				/*border:1px solid red;*/
-				filter: brightness(80%);
+				filter: brightness(100%);
 				background-position: right;
 				animation-name:homepage;
 				animation-iteration-count: 1;
@@ -31,14 +31,14 @@
 			@keyframes homepage{
 				0% {background-size:120%;
 					background-position: right;
-					filter:brightness(80%);}
+					filter:brightness(100%);}
 				50% {background-size:130%;
 					background-position: right;
-					filter:brightness(100%);
+					filter:brightness(120%);
 						}
 				100% {background-size:120%;
 						background-position: right;
-						filter:brightness(80%);
+						filter:brightness(100%);
 				}
 			}
 
@@ -263,7 +263,8 @@
 			.content h1{
 				font-size:3em;
 				font-weight:bolder;
-				font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+				font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+				margin-bottom:1em;
 			}
 
 			.FAQs{
